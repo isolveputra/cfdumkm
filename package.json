@@ -1,0 +1,26 @@
+{
+  "name": "cfd-pandeyan-system-information",
+  "version": "1.0.0",
+  "description": "CFD Pandeyan System Information Monorepo",
+  "private": true,
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "db:generate": "turbo db:generate",
+    "db:push": "turbo db:push",
+    "prisma:generate": "prisma generate",
+    "prisma:studio": "prisma studio"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.1.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.1.0",
+    "turbo": "^2.10.0"
+  },
+  "packageManager": "pnpm@11.7.0",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
